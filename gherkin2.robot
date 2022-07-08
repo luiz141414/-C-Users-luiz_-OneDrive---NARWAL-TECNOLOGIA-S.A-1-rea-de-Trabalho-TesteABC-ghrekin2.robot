@@ -57,7 +57,7 @@ Quando eu inserir os dados de cadastro
     Click Link        (//a[@href='http://automationpractice.com/index.php?controller=my-account'])[1]
     #Inserindo endereço de e-mail para criar conta
     Wait Until Element Is Visible    //input[contains(@id,'email_create')]
-    Input Text    //input[contains(@id,'email_create')]    teste06@ABC.com
+    Input Text    //input[contains(@id,'email_create')]    teste07@ABC.com
     #caso queira simular com um email aleatorio só descomentar a linha abaixo e comentar o input acima
     #EMAILFAKE  
     Click Element    //span[contains(.,'Create an account')]
@@ -124,7 +124,7 @@ Quando eu inserir os dados de cadrastro
     Click Link        (//a[@href='http://automationpractice.com/index.php?controller=my-account'])[1]
     #Inserindo endereço de e-mail para criar conta
     Wait Until Element Is Visible    //input[contains(@id,'email_create')]
-    Input Text    //input[contains(@id,'email_create')]    teste06@ABC.com
+    Input Text    //input[contains(@id,'email_create')]    teste07@ABC.com
     #caso queira simular com um email aleatorio só descomentar a linha abaixo e comentar o input acima
     #EMAILFAKE  
     Click Element    //span[contains(.,'Create an account')]
